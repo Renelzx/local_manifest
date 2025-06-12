@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>      
       
-<remote name="pix"
-      fetch="https://github.com/pix106" />
+<remote name="sonicb"
+      fetch="https://github.com/SonicBSV" />
 
 <remote name="me"
-      fetch="https://github.com/hiratazx" />
+      fetch="https://github.com/rsuntk" />
 
       <remove-project path="hardware/qcom-caf/common" />
       <remove-project path="hardware/qcom-caf/msm8953/audio" />
@@ -17,8 +17,6 @@
       <remove-project path="hardware/qcom-caf/msm8998/audio" />
       <remove-project path="hardware/qcom-caf/msm8998/display" />
       <remove-project path="hardware/qcom-caf/msm8998/media" />
-      <remove-project path="hardware/qcom-caf/sdm660/audio" />
-      <remove-project path="hardware/qcom-caf/sdm660/display" />
       <remove-project path="hardware/qcom-caf/sdm845/audio" />
       <remove-project path="hardware/qcom-caf/sdm845/display" />
       <remove-project path="hardware/qcom-caf/sdm845/media" />
@@ -49,15 +47,8 @@
       <remove-project path="hardware/qcom-caf/sm8650/dataipa" />
       <remove-project path="hardware/qcom-caf/sm8650/display" />
       
-      
-      <project path="device/xiaomi/platina" name="android_device_xiaomi_platina" revision="fifteen-qpr2" remote="me" clone-depth="1" />
-      <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" revision="fifteen-qpr2" remote="me" clone-depth="1" />
-      <project path="vendor/xiaomi/platina" name="android_vendor_xiaomi_platina" revision="fifteen-qpr2" remote="me" clone-depth="1" />
-      <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" revision="fifteen-qpr2" remote="me" clone-depth="1" />
-      <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_platina-4.19" revision="udc-staging" remote="me" clone-depth="1" clone-submodules="true" />
-      
-      <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_audio" groups="qcom,qcom_audio" revision="lineage-22.2" remote="pix" clone-depth="1" />
-      <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_display" groups="pdk,qcom,qcom_display" revision="lineage-22.2-caf-sdm660" remote="pix" clone-depth="1" />
-      <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,qcom_media" revision="lineage-22.2" remote="pix" clone-depth="1" />
-
+      <project path="device/asus/X01BD" name="android_device_asus_X01BD-4.19" revision="axion" remote="me" clone-depth="1" />
+      <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.19" revision="15.0" remote="me" clone-depth="1" />
+      <project path="vendor/asus" name="proprietary_vendor_asus-4.19" revision="15.0" remote="sonicb" clone-depth="1" />
+      <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660-4.19" revision="Ratibor-Rebased-CIP" remote="me" clone-depth="1" clone-submodules="true" />
 </manifest>
