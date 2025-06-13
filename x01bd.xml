@@ -1,50 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>      
-      
-<remote name="sonicb"
-      fetch="https://github.com/SonicBSV" />
-
-<remote name="me"
-      fetch="https://github.com/rsuntk" />
-
-      <remove-project path="hardware/qcom-caf/msm8953/audio" />
-      <remove-project path="hardware/qcom-caf/msm8953/display" />
-      <remove-project path="hardware/qcom-caf/msm8953/media" />
-      <remove-project path="hardware/qcom-caf/msm8996/audio" />
-      <remove-project path="hardware/qcom-caf/msm8996/display" />
-      <remove-project path="hardware/qcom-caf/msm8996/media" />
-      <remove-project path="hardware/qcom-caf/msm8998/audio" />
-      <remove-project path="hardware/qcom-caf/msm8998/display" />
-      <remove-project path="hardware/qcom-caf/msm8998/media" />
-      <remove-project path="hardware/qcom-caf/sdm845/audio" />
-      <remove-project path="hardware/qcom-caf/sdm845/display" />
-      <remove-project path="hardware/qcom-caf/sdm845/media" />
-      <remove-project path="hardware/qcom-caf/sm8150/audio" />
-      <remove-project path="hardware/qcom-caf/sm8150/display" />
-      <remove-project path="hardware/qcom-caf/sm8150/media" />
-      <remove-project path="hardware/qcom-caf/sm8250/audio" />
-      <remove-project path="hardware/qcom-caf/sm8250/display" />
-      <remove-project path="hardware/qcom-caf/sm8250/media" />
-      <remove-project path="hardware/qcom-caf/sm8350/audio" />
-      <remove-project path="hardware/qcom-caf/sm8350/display" />
-      <remove-project path="hardware/qcom-caf/sm8450/audio/agm" />
-      <remove-project path="hardware/qcom-caf/sm8450/audio/graphservices" />
-      <remove-project path="hardware/qcom-caf/sm8450/audio/pal" />
-      <remove-project path="hardware/qcom-caf/sm8450/audio/primary-hal" />
-      <remove-project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" />
-      <remove-project path="hardware/qcom-caf/sm8450/display" />
-      <remove-project path="hardware/qcom-caf/sm8550/audio/agm" />
-      <remove-project path="hardware/qcom-caf/sm8550/audio/pal" />
-      <remove-project path="hardware/qcom-caf/sm8550/audio/primary-hal" />
-      <remove-project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" />
-      <remove-project path="hardware/qcom-caf/sm8550/dataipa" />
-      <remove-project path="hardware/qcom-caf/sm8550/display" />
-      <remove-project path="hardware/qcom-caf/sm8650/audio/agm" />
-      <remove-project path="hardware/qcom-caf/sm8650/audio/pal" />
-      <remove-project path="hardware/qcom-caf/sm8650/audio/primary-hal" />
-      <remove-project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" />
-      <remove-project path="hardware/qcom-caf/sm8650/dataipa" />
-      <remove-project path="hardware/qcom-caf/sm8650/display" />
+      <remote name="sonicb" fetch="https://github.com/SonicBSV" />
+      <remote name="me" fetch="https://github.com/rsuntk" />
       
       <project path="device/asus/X01BD" name="android_device_asus_X01BD-4.19" revision="axion" remote="me" clone-depth="1" />
       <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.19" revision="15.0" remote="sonicb" clone-depth="1" />
