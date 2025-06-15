@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>      
-      <remote name="sonicb" fetch="https://github.com/SonicBSV" />
       <remote name="me" fetch="https://github.com/rsuntk" />
       <remote name="hiratazx" fetch="https://github.com/hiratazx" />
 
       <project path="vendor/lineage-priv/keys" name="vendor_lineage-priv_keys" revision="main" remote="hiratazx" clone-depth="1" />
       <project path="device/asus/X01BD" name="android_device_asus_X01BD-4.19" revision="axion" remote="me" clone-depth="1" />
-      <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.19" revision="15.0" remote="sonicb" clone-depth="1" />
-      <project path="vendor/asus" name="proprietary_vendor_asus-4.19" revision="15.0" remote="sonicb" clone-depth="1" />
+      <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.19" revision="15.0" remote="me" clone-depth="1" />
+      <project path="vendor/asus" name="proprietary_vendor_asus-4.19" revision="15.0" remote="me" clone-depth="1" />
       <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660-4.19" revision="Ratibor-Rebased-CIP" remote="me" clone-depth="1" clone-submodules="true" />
 </manifest>
