@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>      
-      <remote name="me" fetch="https://github.com/rsuntk" />
+      <remote name="me" fetch="https://github.com/rsuntk-playground" />
       <remote name="SonicBSV" fetch="https://github.com/SonicBSV" />
 
       <project path="vendor/lineage-priv/keys" name="yukiprjkt_priv_keys" revision="main" remote="me" clone-depth="1" />
