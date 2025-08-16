@@ -4,7 +4,7 @@
 
       <project path="vendor/lineage-priv/keys" name="yukiprjkt_priv_keys" revision="main" remote="me" clone-depth="1" />
       <project path="device/asus/X01BD" name="android_device_asus_X01BD-4.19" revision="bka" remote="me" clone-depth="1" />
-      <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.19" revision="bka-infinityx" remote="me" clone-depth="1" />
+      <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.19" revision="bka" remote="me" clone-depth="1" />
       <project path="vendor/asus" name="proprietary_vendor_asus-4.19" revision="15.0" remote="me" clone-depth="1" />
       <project path="kernel/asus/sdm660" name="upstream_asus_sdm660" revision="master" remote="me" clone-depth="1" clone-submodules="true" />
 </manifest>
