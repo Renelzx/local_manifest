@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>      
       <remote name="me" fetch="https://github.com/rsuplaygrnd" />
-      
-      <remove-project path="hardware/qcom/sm7250" />
 
       <project path="vendor/lineage-priv/keys" name="yukiprjkt_priv_keys" revision="main" remote="me" clone-depth="1" />
       <project path="device/asus/X01BD" name="android_device_asus_X01BD" revision="15.0" remote="me" clone-depth="1" />
