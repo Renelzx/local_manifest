@@ -7,7 +7,7 @@
 	<!-- Signing Key -->
 	<project path="vendor/lineage-priv/keys" name="yukiprjkt_priv_keys" revision="main" remote="me" clone-depth="1" />
 	<!-- X01BD Device tree -->
-	<project path="device/asus/X01BD" name="android_device_asus_X01BD" revision="16.0" remote="me" clone-depth="1" />
+	<project path="device/asus/X01BD" name="android_device_asus_X01BD" revision="16.0-wip" remote="me" clone-depth="1" />
 	<!-- SDM660 Common Device tree -->
 	<project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" revision="16.0" remote="me" clone-depth="1" />
 	<!-- SDM660 Common Vendor tree -->
