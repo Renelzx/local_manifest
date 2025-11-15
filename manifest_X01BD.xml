@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>      
-	<remote name="me" fetch="https://github.com/rsuplaygrnd" />
+	<remote name="orgs" fetch="https://github.com/rsuplaygrnd" />
 	<remote name="personal" fetch="https://github.com/rsuntk" />
 
-	<!-- Extras -->
-	<project path="vendor/rsuntk_extras" name="rsuntk_extras" revision="master" remote="me" clone-depth="1" />
 	<!-- Signing Key -->
-	<project path="vendor/lineage-priv/keys" name="yukiprjkt_priv_keys" revision="main" remote="me" clone-depth="1" />
+	<project path="vendor/lineage-priv/keys" name="yukiprjkt_priv_keys" revision="main" remote="orgs" clone-depth="1" />
 	<!-- X01BD Device tree -->
-	<project path="device/asus/X01BD" name="android_device_asus_X01BD" revision="16.0" remote="me" clone-depth="1" />
+	<project path="device/asus/X01BD" name="android_device_asus_X01BD" revision="bp3a-statix" remote="orgs" clone-depth="1" />
 	<!-- SDM660 Common Device tree -->
-	<project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" revision="master" remote="me" clone-depth="1" />
+	<project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" revision="master" remote="orgs" clone-depth="1" />
 	<!-- SDM660 Common Vendor tree -->
-	<project path="vendor/asus" name="android_vendor_asus_sdm660" revision="16.0" remote="me" clone-depth="1" />
+	<project path="vendor/asus" name="android_vendor_asus_sdm660" revision="16.0" remote="orgs" clone-depth="1" />
 	<!-- SDM660 Common Kernel tree -->
 	<project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" revision="master" remote="personal" clone-depth="1" clone-submodules="true" />
 </manifest>
