@@ -7,10 +7,12 @@
 	<project path="vendor/lineage-priv/keys" name="yukiprjkt_priv_keys" revision="main" remote="orgs" clone-depth="1" />
 	<!-- X01BD Device tree -->
 	<project path="device/asus/X01BD" name="android_device_asus_X01BD" revision="bp3a-statix" remote="orgs" clone-depth="1" />
+	<!-- X01BD Kernel -->
+	<project path="device/asus/X01BD-kernel" name="android_device_asus_X01BD-kernel" revision="bka" clone-depth="1" remote="orgs" />
 	<!-- SDM660 Common Device tree -->
 	<project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" revision="master" remote="orgs" clone-depth="1" />
 	<!-- SDM660 Common Vendor tree -->
 	<project path="vendor/asus" name="android_vendor_asus_sdm660" revision="16.0" remote="orgs" clone-depth="1" />
 	<!-- SDM660 Common Kernel tree -->
-	<project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" revision="master" remote="personal" clone-depth="1" clone-submodules="true" />
+	<!--project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" revision="master" remote="personal" clone-depth="1" clone-submodules="true" /-->
 </manifest>
