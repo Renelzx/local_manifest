@@ -3,12 +3,10 @@
 	<remote name="me" fetch="https://github.com/rsuplaygrnd" />
 	<remote name="personal" fetch="https://github.com/rsuntk" />
 
-	<!-- Extras -->
-	<project path="vendor/rsuntk_extras" name="rsuntk_extras" revision="master" remote="me" clone-depth="1" />
 	<!-- Signing Key -->
 	<project path="vendor/lineage-priv/keys" name="yukiprjkt_priv_keys" revision="main" remote="me" clone-depth="1" />
 	<!-- X01BD Device tree -->
-	<project path="device/asus/X01BD" name="android_device_asus_X01BD" revision="16.0" remote="me" clone-depth="1" />
+	<project path="device/asus/X01BD" name="android_device_asus_X01BD" revision="evox" remote="me" clone-depth="1" />
 	<!-- SDM660 Common Device tree -->
 	<project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" revision="master" remote="me" clone-depth="1" />
 	<!-- SDM660 Common Vendor tree -->
