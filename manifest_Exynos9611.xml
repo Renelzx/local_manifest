@@ -10,8 +10,6 @@
 	
 	<!-- Signing Key -->
 	<project path="vendor/lineage-priv/keys" name="yukiprjkt_priv_keys" revision="main" remote="me" clone-depth="1" />
-	<?xml version="1.0" encoding="UTF-8"?>
-	<manifest>
 
     <!-- Sync hardware -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="los" revision="lineage-23.0" clone-depth="1" />
