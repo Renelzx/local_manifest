@@ -5,40 +5,22 @@
 
 	  <!-- Remotes -->
   	<remote name="los" fetch="https://github.com/LineageOS" clone-depth="1" />
-  	<remote name="Development" fetch="https://github.com/Exynos9611Development" clone-depth="1" />
+  	<remote name="brokenlab" fetch="https://github.com/renelz-brokenlab" clone-depth="1" />
 	<remote name="me" fetch="https://github.com/renelzx" />
 	
 	<!-- Signing Key -->
-	<project path="vendor/lineage-priv/keys" name="yukiprjkt_priv_keys" revision="main" remote="me" clone-depth="1" />
+	<project path="vendor/lineage-priv/keys" name="vendor_lineage-priv_keys" revision="main" remote="me" clone-depth="1" />
 
     <!-- Sync hardware -->
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="los" revision="lineage-23.0" clone-depth="1" />
-  <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="los" revision="lineage-23.0" clone-depth="1" />
-  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="los" revision="lineage-23.0" clone-depth="1" />
-  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="los" revision="lineage-23.0" clone-depth="1" /> 
-  <project path="hardware/samsung_slsi-linaro/codec2" name="android_hardware_samsung_slsi-linaro_codec2" remote="los" revision="lineage-22.2" clone-depth="1" />
-  <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="los" revision="lineage-23.0" clone-depth="1" />
-  <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="los" revision="lineage-23.0" clone-depth="1" />
-  <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="los" revision="lineage-23.0" clone-depth="1" />
-  <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="los" revision="lineage-23.0" clone-depth="1" />
-  <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="los" revision="lineage-23.0" clone-depth="1" />
-  <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="los" revision="lineage-23.0" clone-depth="1" />
+  	<project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" revision="lineage-23.1" clone-depth="1" />
+	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-23.0" clone-depth="1" />
+	
   <!-- Kernel -->
-  <project path="kernel/samsung/universal9611" name="android_kernel_samsung_universal9611" remote="me" revision="Everline" clone-depth="1" />
+  <project path="device/xiaomi/emerald-kernel" name="android_kernel_xiaomi_emerald-kernel" remote="brokenlab" revision="22.2" clone-depth="1" />
   <!-- Devices trees -->
-  <project path="device/samsung/universal9611-common" name="android_device_samsung_universal9611-common" remote="Development" revision="lineage-23.0" />
-  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="los" revision="lineage-23.0" />
-  <project path="device/samsung/m31" name="android_device_samsung_m31" remote="Development" revision="lineage-23.0" />
-  <project path="device/samsung/a51" name="android_device_samsung_a51" remote="me" revision="lineage-23.0" />
-  <project path="device/samsung/f41" name="android_device_samsung_f41" remote="Development" revision="lineage-23.0" />
-  <project path="device/samsung/m31s" name="android_device_samsung_m31s" remote="Development" revision="lineage-23.0" />
-  <project path="device/samsung/m21" name="android_device_samsung_m21" remote="Development" revision="lineage-23.0" />
+  <project path="device/xiaomi/emerald" name="android_device_xiaomi_emerald" remote="me" revision="lineage-22.2" />
+	<project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-23.1" clone-depth="1" />
  <!-- Vendor trees -->
-  <project path="vendor/samsung/universal9611-common" name="android_vendor_samsung_universal9611-common" remote="Development" revision="lineage-23.0" clone-depth="1" />
-  <project path="vendor/samsung/m31" name="android_vendor_samsung_m31" remote="Development" revision="lineage-23.0" clone-depth="1" />
-  <project path="vendor/samsung/a51" name="android_vendor_samsung_a51" remote="Development" revision="lineage-23.0" clone-depth="1" />
-  <project path="vendor/samsung/f41" name="android_vendor_samsung_f41" remote="Development" revision="lineage-23.0" clone-depth="1" />
-  <project path="vendor/samsung/m31s" name="android_vendor_samsung_m31s" remote="Development" revision="lineage-23.0" clone-depth="1" />
-  <project path="vendor/samsung/m21" name="android_vendor_samsung_m21" remote="Development" revision="lineage-23.0" clone-depth="1" />
+  <project path="vendor/xiaomi/emerald" name="vendor_xiaomi_emerald" remote="brokenlab" revision="dev/lineage-22.2" clone-depth="1" />
   
 </manifest>
