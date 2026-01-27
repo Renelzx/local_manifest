@@ -7,6 +7,7 @@
   	<remote name="los" fetch="https://github.com/LineageOS" clone-depth="1" />
   	<remote name="Development" fetch="https://github.com/Exynos9611Development" clone-depth="1" />
 	<remote name="me" fetch="https://github.com/renelzx" />
+	<remote name="brokenlab" fetch="https://github.com/renelz-brokenlab" />
 	
 	<!-- Signing Key -->
 	<project path="vendor/lineage-priv/keys" name="vendor_lineage-priv_keys" revision="main" remote="me" clone-depth="1" />
@@ -24,13 +25,13 @@
   <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="los" revision="lineage-23.2" clone-depth="1" />
   <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="los" revision="lineage-23.2" clone-depth="1" />
   <!-- Kernel -->
-  <project path="kernel/samsung/universal9611" name="android_kernel_samsung_universal9611" remote="me" revision="Everline" clone-depth="1" />
+  <project path="kernel/samsung/universal9611" name="android_kernel_samsung_universal9611" remote="brokenlab" revision="Everline" clone-depth="1" />
   <!-- Devices trees -->
-  <project path="device/samsung/universal9611-common" name="android_device_samsung_universal9611-common" remote="me" revision="lineage-23.2" />
+  <project path="device/samsung/universal9611-common" name="android_device_samsung_universal9611-common" remote="brokenlab" revision="lineage-23.2" />
   <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="los" revision="lineage-23.2" />
   <project path="device/samsung/a51" name="android_device_samsung_a51" remote="me" revision="lineage-23.2" />
  <!-- Vendor trees -->
-  <project path="vendor/samsung/universal9611-common" name="android_vendor_samsung_universal9611-common" remote="me" revision="lineage-23.2" clone-depth="1" />
+  <project path="vendor/samsung/universal9611-common" name="android_vendor_samsung_universal9611-common" remote="brokenlab" revision="lineage-23.2" clone-depth="1" />
   <project path="vendor/samsung/a51" name="android_vendor_samsung_a51" remote="Development" revision="lineage-23.2" clone-depth="1" />
   
 </manifest>
