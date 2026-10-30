@@ -6,12 +6,15 @@
 	  <!-- Remotes -->
 	<remote name="me" fetch="https://github.com/Renelzx" />
 	<remote name="lab" fetch="https://github.com/renelz-brokenlab" />
-	<remote name="los" fetch="https://github.com/renelz-brokenlab" />
+	<remote name="los" fetch="https://github.com/LineageOS" />
 	<remote name="dev" fetch="https://github.com/sm6150-dev" />
 	
 	<!-- Signing Key -->
 	<project path="vendor/lineage-priv/keys" name="vendor_lineage-priv_keys" revision="main" remote="me" clone-depth="1" />
-
+	
+	<!-- Sync Hardware -->
+	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-18.1" clone-depth="1" />
+	
   <!-- Kernel -->
   <project path="kernel/xiaomi/sm6150" name="android_kernel_xiaomi_sm7150" remote="lab" revision="main" clone-depth="1" />
 	
