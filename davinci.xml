@@ -26,4 +26,8 @@
   <project path="vendor/xiaomi/davinci" name="proprietary_vendor_xiaomi_davinci" remote="lab" revision="lineage-18.1" clone-depth="1" />
   <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common-oss" remote="lab" revision="lineage-18.1" clone-depth="1" />
 
+ <!-- Qcom sepolicy (override dari snippet Kasumi) -->
+<remove-project name="LineageOS/android_device_qcom_sepolicy" />
+<project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.1" />
+	
 </manifest>
