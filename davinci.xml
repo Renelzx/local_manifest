@@ -29,6 +29,8 @@
  <!-- Qcom sepolicy (override dari snippet Kasumi) -->
 <remove-project name="LineageOS/android_device_qcom_sepolicy" />
 <remove-project name="LineageOS/android_vendor_apn" />
+<remove-project name="external_faceunlock" />
+<remove-project name="packages_apps_FaceUnlockService" />
 <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.1" />
 	
 </manifest>
