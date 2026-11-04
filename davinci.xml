@@ -28,6 +28,7 @@
 
  <!-- Qcom sepolicy (override dari snippet Kasumi) -->
 <remove-project name="LineageOS/android_device_qcom_sepolicy" />
+<remove-project name="LineageOS/android_vendor_apn" />
 <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.1" />
 	
 </manifest>
